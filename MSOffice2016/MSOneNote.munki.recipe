@@ -54,7 +54,7 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
         </dict>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.arubdesu.pkg.MSOneNote2016</string>
+    <string>com.github.DougUbertec.pkg.MSOneNote2016</string>
     <key>Process</key>
     <array>
         <dict>
