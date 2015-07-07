@@ -12,7 +12,7 @@
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.arubdesu.pkg.MSOneNote2016</string>
+    <string>com.github.DougUbertec.pkg.MSOneNote2016</string>
     <key>Process</key>
     <array>
         <dict>
