@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.autopkg.download.AdobeReaderDC</string>
+	<string>com.github.DcW.download.AdobeReaderDC</string>
 	<key>Input</key>
 	<dict>
         <key>LANGUAGE</key>
@@ -16,6 +16,6 @@
 		<string>AdobeReaderDC</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.AdobeReader</string>
+	<string>com.github.DcW.download.AdobeReader</string>
 </dict>
 </plist>
