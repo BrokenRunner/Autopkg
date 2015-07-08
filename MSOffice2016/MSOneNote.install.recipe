@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Installs the current release version of MSOneNote2016.</string>
     <key>Identifier</key>
-    <string>com.github.DougUbertec.install.MSOneNote2016</string>
+    <string>com.github.DcW.install.MSOneNote2016</string>
     <key>Input</key>
     <dict>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.DougUbertec.pkg.MSOneNote2016</string>
+    <string>com.github.DcW.pkg.MSOneNote2016</string>
     <key>Process</key>
     <array>
         <dict>
