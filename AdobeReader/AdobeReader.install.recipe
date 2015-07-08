@@ -8,7 +8,7 @@ and enabling installation on non-boot volumes. Finally, it is installed. Setting
 latest/last version of Adobe Reader 10, but the repackager is unlikely to operate properly with that version.
 </string>
     <key>Identifier</key>
-    <string>com.github.autopkg.install.AdobeReader</string>
+    <string>com.github.DcW.install.AdobeReader</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -23,7 +23,7 @@ latest/last version of Adobe Reader 10, but the repackager is unlikely to operat
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.pkg.AdobeReader</string>
+    <string>com.github.DcW.pkg.AdobeReader</string>
     <key>Process</key>
     <array>
         <dict>
