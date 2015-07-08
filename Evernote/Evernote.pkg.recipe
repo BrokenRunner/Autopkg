@@ -6,7 +6,7 @@
 	<string>Downloads the latest version of Evernote and makes a pkg of it
 </string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.Evernote</string>
+    <string>com.github.DcW.pkg.Evernote</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -17,7 +17,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-	<string>com.github.autopkg.download.Evernote</string>
+	<string>com.github.DcW.download.Evernote</string>
     <key>Process</key>
     <array>
         <dict>
