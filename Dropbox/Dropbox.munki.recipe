@@ -20,7 +20,7 @@ Dropbox file item, so that if a newer version of Dropbox is ever imported
 into the repo, it will not trigger updates on clients whose newer version is only
 located in their user's home folder.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.dropbox</string>
+    <string>com.github.DcW.munki.dropbox</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -67,7 +67,7 @@ fi
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.dropbox</string>
+    <string>com.github.DcW.download.dropbox</string>
     <key>Process</key>
     <array>
         <dict>
