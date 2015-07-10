@@ -12,7 +12,7 @@
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.arubdesu.pkg.OutlookInstaller</string>
+    <string>com.github.DcW.pkg.OutlookInstaller</string>
     <key>Process</key>
     <array>
         <dict>
