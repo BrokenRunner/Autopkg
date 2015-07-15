@@ -3,35 +3,45 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of DeployStudio.</string>
+    <string>Downloads and installs latest Skype client.</string>
     <key>Identifier</key>
-    <string>com.github.DcW.download.DeployStudio</string>
+    <string>com.github.DcW.install.DeployStudio</string>
     <key>Input</key>
     <dict>
-        <key>NAME</key>
-        <string>DeployStudio</string>
+        <key>DOWNLOAD_URL</key>
+        <string>http://www.deploystudio.com/get.php?fp=DeployStudioServer_v1.6.15.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
+    <key>ParentRecipe</key>
+    <string>com.github.DcW.download.DeployStudio</string>
     <key>Process</key>
     <array>
         <dict>
+            <key>Processor</key>
+            <string>InstallFromDMG</string>
             <key>Arguments</key>
             <dict>
+                <key>dmg_path</key>
+                <string>%pathname%</string>
+                <key>items_to_copy</key>
+                <array>
+                    <dict>
+                        <key>source_item</key>
+                        <string>DeployStudio Assistant.app</string>
+                        <key>destination_path</key>
+                        <string>/Applications/Utilities/</string>
+                        <key>source_item</key>
+                        <string>DeployStudio Admin.app</string>
+                        <key>destination_path</key>
+                        <string>/Applications/Utilities/</string>
+                        <key>source_item</key>
+                        <string>DeployStudio Runtime.app</string>
+                        <key>destination_path</key>
+                        <string>/Applications/Utilities/</string>
+                    </dict>
+                </array>
             </dict>
-            <key>Processor</key>
-            <string>DeployStudioURLProvider</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-            </dict>
-            <key>Processor</key>
-            <string>URLDownloader</string>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>EndOfCheckPhase</string>
         </dict>
     </array>
 </dict>
