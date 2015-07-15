@@ -10,7 +10,7 @@
 	<dict>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.4.0</string>
+	<string>0.2.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.DcW.download.Deploystudio</string>
 	<key>Process</key>
